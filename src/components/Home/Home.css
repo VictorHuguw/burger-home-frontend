@@ -1,0 +1,34 @@
+.content {
+  background-color: #232227;
+  color: white;
+  min-height: 100vh;
+  font-size: 25px;
+}
+
+.items-menu .item {
+    cursor: pointer;
+}
+
+.items-menu .item:hover{
+    color:cadetblue
+}
+
+.slick-dots li.slick-active button::before {
+    color: yellow !important;
+}
+
+.slick-dots li button::before
+{
+    font-size: 10px !important;
+    
+}
+
+.content img { 
+    height: 430px;
+}
+
+
+.card{
+    margin-top: 20px;
+    cursor: pointer;
+}
